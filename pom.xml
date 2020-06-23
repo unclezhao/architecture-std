@@ -33,6 +33,7 @@
         <module>jdk-spi-extend-impl</module>
         <module>jdk-spi-general-impl</module>
         <module>jdk-spi-app</module>
+        <module>spring-spi-toml-impl</module>
     </modules>
 
     <properties>

@@ -1,0 +1,2 @@
+org.springframework.boot.env.PropertySourceLoader=\
+me.zy.std.spi.spring.extension.TomlPropertySourceLoader
