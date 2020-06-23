@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Bean;
  * @author zhaoyang.
  */
 @SpringBootApplication
-public class SpringTomlTextApplication {
+public class SpringTomlTestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTomlTextApplication.class, args);
+        SpringApplication.run(SpringTomlTestApplication.class, args);
     }
 
     @Value("${title}")
