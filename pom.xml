@@ -39,6 +39,7 @@
         <module>dubbo-spi-provider</module>
         <module>dubbo-spi-consumer</module>
         <module>ood-solid-demo</module>
+        <module>consistent-hash-demo</module>
     </modules>
 
     <properties>
