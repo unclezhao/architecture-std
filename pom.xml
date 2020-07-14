@@ -29,17 +29,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>jdk-spi-api</module>
-        <module>jdk-spi-extend-impl</module>
-        <module>jdk-spi-general-impl</module>
-        <module>jdk-spi-app</module>
-        <module>spring-spi-toml-impl</module>
-        <module>dubbo-serialization-protostuff</module>
-        <module>dubbo-spi-api</module>
-        <module>dubbo-spi-provider</module>
-        <module>dubbo-spi-consumer</module>
-        <module>ood-solid-demo</module>
-        <module>consistent-hash-demo</module>
+        <module>jdk-spi-std</module>
+        <module>spring-spi-std</module>
+        <module>dubbo-spi-std</module>
+        <module>ood-solid-std</module>
+        <module>consistent-hash-std</module>
     </modules>
 
     <properties>

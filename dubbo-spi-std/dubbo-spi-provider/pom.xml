@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.zy.std</groupId>
-    <artifactId>dubbo-spi-consumer</artifactId>
+    <artifactId>dubbo-spi-provider</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -33,7 +33,37 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-rpc-api</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-rpc-dubbo</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-remoting-api</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-container-api</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
             <artifactId>dubbo-remoting-netty4</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-registry-zookeeper</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-rpc-dubbo</artifactId>
             <version>2.6.8</version>
         </dependency>
     </dependencies>
@@ -46,14 +76,14 @@
                 <version>1.6.0</version>
                 <executions>
                     <execution>
-                        <id>run-echo-client</id>
+                        <id>run-echo-server</id>
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>me.zy.std.dubbo.spi.consumer.EchoConsumer</mainClass>
+                    <mainClass>me.zy.std.dubbo.spi.provider.EchoProvider</mainClass>
                 </configuration>
             </plugin>
         </plugins>
