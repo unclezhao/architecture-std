@@ -33,7 +33,7 @@
         <module>spring-spi-std</module>
         <module>dubbo-spi-std</module>
         <module>ood-solid-std</module>
-        <module>consistent-hash-std</module>
+        <module>protocol-std</module>
     </modules>
 
     <properties>
